@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.EventQueue;
 import java.awt.Insets;
@@ -62,7 +63,10 @@ public class LithographGUI extends JFrame{
     	
 		panel.setLayout(null);
 		Insets insets = panel.getInsets();
-
+		
+		//changes the color of the background
+		panel.setBackground(new Color(156,140,255));
+		
 		//StartButton
 		startButton = new JButton("Make Lithograph");
 		//set false later
